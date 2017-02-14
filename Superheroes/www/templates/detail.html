@@ -1,13 +1,6 @@
-{% load staticfiles %}
+{% extends 'base.html' %}
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Superheroes app</title>
-    <link rel="stylesheet" href="{% static 'normalize.css' %}"></link>
-    <link rel="stylesheet" href="{% static 'main.css' %}"></link>
-  </head>
-  <body>
+{% block content %}
     <main>
     <h1>Superheroes app</h1>
       <section>
@@ -23,3 +16,5 @@
   </main>
   </body>
 </html>
+
+{% endblock %}

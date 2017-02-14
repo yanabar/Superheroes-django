@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <form action = "." method = "post">
+    <!--csrf token django provides again cross site request-->
+    {% csrf_token %}
+    {{ form.as_p}}
+    <input type="submit" value="Submit" />
+  </from>
+{% endblock %}
