@@ -1,3 +1,4 @@
 heroes
 Superheroes/**/*.pyc
 **/__pycache__/**.pyc
+Superheroes/Superheroes/settings.py
