@@ -12,10 +12,10 @@
     <h1>Superheroes app</h1>
     {% for person in heroes %}
       <section>
-      <img src = "{{ person.image }}" />
-      <p>{{ person.name }}</p>
-      <p>{{ person.email }}</p>
-      <p>{{ person.title }}</p>
+        <a href="{% url 'detail' person.slug %}"><img src = "{{ person.image }}" /></a>
+        <h2>{{ person.name }}</h2>
+        <p class="hero-email">{{ person.email }}</p>
+        <p class="hero-title">{{ person.title }}</p>
         </section>
     {% endfor %}
   </main>
