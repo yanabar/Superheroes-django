@@ -6,17 +6,19 @@
       "name": "Jean Grey",
       "email": "jean_grey@yahoo.com",
       "title": "Miss",
-      "image": "http://vignette3.wikia.nocookie.net/p__/images/0/0c/Jean_Grey_90s.jpg/revision/latest?cb=20150830155522&path-prefix=protagonist"
+      "image": "http://vignette3.wikia.nocookie.net/p__/images/0/0c/Jean_Grey_90s.jpg/revision/latest?cb=20150830155522&path-prefix=protagonist",
+      "slug": "jean-grey"
     }
   },
   {
     "model": "www.Superhero",
     "pk": 2,
     "fields": {
-      "name": "Marc Spector ",
+      "name": "Marc Spector",
       "email": "k-nightisyoung@gmail.com",
       "title": "Mr",
-      "image": "https://i.annihil.us/u/prod/marvel//universe3zx/images/d/de/Moon_knight_inline_3.jpg"
+      "image": "https://i.annihil.us/u/prod/marvel//universe3zx/images/d/de/Moon_knight_inline_3.jpg",
+      "slug": "marc-spector"
     }
   }
 ]
