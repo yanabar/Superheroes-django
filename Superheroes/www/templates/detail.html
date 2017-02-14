@@ -1,0 +1,25 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Superheroes app</title>
+    <link rel="stylesheet" href="{% static 'normalize.css' %}"></link>
+    <link rel="stylesheet" href="{% static 'main.css' %}"></link>
+  </head>
+  <body>
+    <main>
+    <h1>Superheroes app</h1>
+      <section>
+        <img src = "{{ person.image }}" />
+        <h2>{{ person.name }}</h2>
+        <p class="hero-email">{{ person.email }}</p>
+        <p class="hero-title">{{ person.title }}</p>
+        <p>{{ person.responsibilities }}</p>
+        <p>{{ person.bio }}</p>
+        <p>{{ person.twitter }}</p>
+        <p>{{ person.birthday }}</p>
+        </section>
+  </main>
+  </body>
+</html>
